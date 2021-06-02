@@ -31,7 +31,7 @@ class Base {
 
     protected void run() {
         double r = Math.random();
-         /double r = 10.0d;
+         //double r = 10.0d;
         if (r < 0.1) {
             fail("oops");
         } else if (r < 0.2) {
